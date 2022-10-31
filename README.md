@@ -4,9 +4,9 @@
 <h1>A chain of commands to install 'yay' the ultimate AUR helper on Arch<h1><br>
 
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-<span class="pl-c1">cd</span> yay
-makepkg -si</pre><div class="zeroclipboard-container position-absolute right-0 top-0">
+git clone https://github.com/kushall09/yayinstall_script
+<span class="pl-c1">cd</span> yayinstall_script
+./yayinstall.sh</pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pacman -S --needed git base-devel
 git clone https://github.com/kushall09/yayinstall_script
 cd yayinstall_script
